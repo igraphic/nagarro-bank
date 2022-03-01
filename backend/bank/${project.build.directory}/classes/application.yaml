@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  servlet:
+    context-path: /api
+jwt:
+  secret: KepsuCcUymrgVgD6QenRzmCfKhvMWwHntbbw2cXrTSmX8Axz8EQERxhRvvLSKJxpSUw2m4kYKJfu8RJu7XGUEjy5W38uxVHKmncB
+  expire-after-ms: 300000
+
