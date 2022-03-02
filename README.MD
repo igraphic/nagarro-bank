@@ -9,11 +9,15 @@ After clonning the project, please do the following steps
 ### Backend
 [Maven](https://maven.apache.org/install.html) should be installed, then:
 
+In backend\bank folder:
+
 ```bash
 mvn clean install
 mvn spring-boot:run
 ```
 The backend default port is `8080`
+
+In frontend\bank-ui folder:
 
 ### Frontend
 [Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) should be installed, then
