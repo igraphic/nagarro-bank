@@ -17,10 +17,11 @@ mvn spring-boot:run
 ```
 The backend default port is `8080`
 
-In frontend\bank-ui folder:
-
 ### Frontend
 [Node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) should be installed, then
+
+In frontend\bank-ui folder:
+
 ```bash
 npm ci
 npm run start
